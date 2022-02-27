@@ -1,0 +1,511 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(100% - 20%);
+  margin-inline: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background: no-repeat url(../clipboard-landing-page-master/images/bg-header-desktop.png) center top/cover;
+}
+
+header img {
+  width: 10%;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+}
+
+header p {
+  color: #9fabb2;
+  width: 78%;
+  margin: 1rem auto;
+  font-size: .9rem;
+}
+
+@media screen and (max-width: 759px) {
+  header p {
+    width: auto;
+    font-size: .7rem;
+  }
+}
+
+header .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 461px) {
+  header .link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 12px;
+  }
+}
+
+header .link .green-btn {
+  padding-left: 1rem;
+}
+
+header .link .green-btn button {
+  background-color: #4c545d;
+}
+
+header .link .green-btn1 {
+  padding-left: 1rem;
+}
+
+header .link .green-btn1 button {
+  background-color: #26baa4;
+}
+
+header .link button {
+  border-color: white;
+  outline: none;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50px;
+}
+
+.track {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 954px) {
+  .track .col-8 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.track .container-sm {
+  width: 100%;
+  max-width: calc(100% - 18%);
+  margin-inline: auto;
+}
+
+.track h2 {
+  font-size: 1.7rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  .track h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .track h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.track .clip {
+  color: #9fabb2;
+  width: 78%;
+  margin: 1.5rem auto;
+  font-size: .9rem;
+  font-size: .9rem;
+}
+
+@media screen and (max-width: 759px) {
+  .track .clip {
+    width: auto;
+    font-size: .7rem;
+  }
+}
+
+.track .grid {
+  margin-top: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .track .grid {
+    row-gap: 3rem;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.track .grid p {
+  color: #9fabb2;
+  margin: 1rem 0;
+  font-size: .9rem;
+}
+
+.track .grid h3 {
+  font-size: 1rem;
+  color: #4c545d;
+}
+
+.track .grid .col-6 {
+  margin-top: 2rem;
+  padding: none;
+}
+
+.track .grid .col-6:nth-child(2) {
+  text-align: start;
+}
+
+@media screen and (max-width: 767px) {
+  .track .grid .col-6:nth-child(2) {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 954px) {
+  .track .grid .col-6 {
+    margin-top: 0;
+  }
+}
+
+.Access {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.Access .clip {
+  color: #9fabb2;
+  width: 78%;
+  margin: 1.5rem auto;
+  font-size: .9rem;
+}
+
+@media screen and (max-width: 759px) {
+  .Access .clip {
+    width: auto;
+    font-size: .7rem;
+  }
+}
+
+.Access h2 {
+  font-size: 1.7rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  .Access h2 {
+    font-size: 1.4rem;
+  }
+}
+
+.Access .img {
+  margin: 3rem 0;
+}
+
+.flow {
+  color: #9fabb2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.flow h2 {
+  margin-bottom: .8rem;
+  font-size: 1.7rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  .flow h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .flow h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.flow .mr-5 {
+  margin: 6rem 0;
+}
+
+.flow .flex {
+  margin: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flow .flex div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 954px) {
+  .flow .flex div {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flow .flex {
+    gap: 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.flow .flex p {
+  color: #9fabb2;
+  width: 78%;
+  margin: 1rem auto;
+  font-size: .7rem;
+}
+
+@media screen and (max-width: 759px) {
+  .flow .flex p {
+    width: auto;
+  }
+}
+
+.flow .google {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.flow .google img {
+  width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+  .flow .google img {
+    width: 68%;
+  }
+}
+
+.mac {
+  margin: 6rem 0;
+  text-align: center;
+}
+
+.mac h1 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  .mac h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .mac h1 {
+    font-size: 1.3rem;
+  }
+}
+
+.mac p {
+  color: #9fabb2;
+  width: 78%;
+  margin: 1rem auto;
+  font-size: .9rem;
+}
+
+@media screen and (max-width: 759px) {
+  .mac p {
+    width: auto;
+    font-size: .7rem;
+  }
+}
+
+.mac .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 461px) {
+  .mac .link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 12px;
+  }
+}
+
+.mac .link .green-btn {
+  padding-left: 1rem;
+}
+
+.mac .link .green-btn button {
+  background-color: #4c545d;
+}
+
+.mac .link .green-btn1 {
+  padding-left: 1rem;
+}
+
+.mac .link .green-btn1 button {
+  background-color: #26baa4;
+}
+
+.mac .link button {
+  border-color: white;
+  outline: none;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50px;
+}
+
+.mac h1 {
+  font-size: 1.5rem;
+  color: #4c545d;
+}
+
+@media screen and (max-width: 759px) {
+  .mac h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .mac h1 {
+    font-size: 1.3rem;
+  }
+}
+
+.mac p {
+  color: #9fabb2;
+  width: 58%;
+  margin: 1rem auto;
+  font-size: .9rem;
+  font-size: .9rem;
+}
+
+@media screen and (max-width: 759px) {
+  .mac p {
+    width: auto;
+    font-size: .7rem;
+  }
+}
+
+footer {
+  background-color: #e7f0f3;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+footer .img img {
+  width: 40%;
+}
+
+footer .flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 759px) {
+  footer .flex {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 23px;
+  }
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  font-size: .8rem;
+  text-decoration: none;
+  color: #9fabb2;
+}
+
+footer a:hover {
+  color: #26baa4;
+}
+
+@media screen and (max-width: 759px) {
+  footer a {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  footer .social ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+footer .social li {
+  margin-left: .7rem;
+}
+
+footer .social img {
+  width: 65%;
+}
+/*# sourceMappingURL=style.css.map */

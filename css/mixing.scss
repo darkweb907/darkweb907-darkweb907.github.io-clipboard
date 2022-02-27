@@ -1,0 +1,63 @@
+@mixin head{
+    h1{
+        font-size: 2rem;
+        color: $darkblue;
+        @include media(759px){
+            font-size: 1.6rem;
+         }
+        @include media(466px){
+            @include h1
+         }
+     }
+     p{
+         color:$grayblue;
+         width: 78%;
+         margin: 1rem auto;
+         font-size: .9rem;
+         @include media(759px){
+            width: auto;
+            @include p;
+         }
+     }
+     .link{
+         @include media(461px){
+             flex-direction: column;
+             row-gap: 12px;
+         }
+         display:flex;
+         justify-content: center;
+         .green-btn{
+             padding-left: 1rem;
+           button{
+               background-color: $darkblue;
+           }
+         }
+         .green-btn1{
+             padding-left: 1rem;
+           button{
+               background-color: $cyan;
+           }
+         }
+         button{
+             border-color: white;
+             outline:none;
+             color:white;
+             padding: 0.4rem 0.7rem;
+             border-radius:50px;
+         }
+     }
+}
+@mixin media($arr){
+ @media  screen and (max-width: $arr) {
+     @content;
+ }
+}
+@mixin p{
+ font-size:.7rem;
+}
+@mixin h1{
+    font-size:1.3rem;
+   }
+   @mixin h2 {
+    font-size:1.2rem;
+   }
