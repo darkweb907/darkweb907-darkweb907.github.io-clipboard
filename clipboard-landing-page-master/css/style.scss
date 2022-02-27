@@ -17,6 +17,9 @@ header{
     img{
         width:10%;
         margin-bottom: 1.5rem;
+        @include media(466px){
+           width: 25%;
+         }
     }
     @include head
    
